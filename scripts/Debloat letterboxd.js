@@ -11,10 +11,16 @@
 // @license      MIT
 // ==/UserScript==
 
-(function() {
-    // Rmoves Banner under profile
-    var elements = document.getElementsByClassName("banner banner-250 js-hide-in-app");
-    while (elements.length > 0) {
-    elements[0].parentNode.removeChild(elements[0]);
-  }
-})();
+
+// Rmoves Banner in home
+var elements = document.getElementsByClassName("banner banner-950 js-hide-in-app");
+while (elements.length > 0) {
+  elements[0].parentNode.removeChild(elements[0]);
+}
+
+// Rmoves Banner under profile
+var elements = document.getElementsByClassName("banner banner-250 js-hide-in-app");
+while (elements.length > 0) {
+  elements[0].parentNode.removeChild(elements[0]);
+}
+
