@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         Debloat Letterboxd
-// @namespace    https://github.com/jothi-prasath/Userscripts
-// @version      0.1
+// @namespace    https://greasyfork.org/en/users/1169041-jothi-prasath
+// @version      1.0
 // @description  Removes Ad and banners
 // @author       Jothi Prasath
+// @homepage     https://github.com/jothi-prasath/userscripts
+// @supportURL   https://github.com/jothi-prasath/userscripts/issues/new
 // @match        https://letterboxd.com/*
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function() {
